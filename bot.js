@@ -7,12 +7,12 @@ const config = require('./settings.json');
 
 function createBot() {
    const bot = mineflayer.createBot({
-      username: config['bot-account']['username'],
-      password: config['bot-account']['password'],
+      username: config['bot-account']['wassup'],
+      password: config['bot-account']['Sebirocks07'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
-      version: config.server.version,
+      host: config.server.myjjkk7.aternos.me:51616,
+      port: config.server.51616,
+      version: config.server.1.21.4,
    });
 
    bot.loadPlugin(pathfinder);
@@ -28,8 +28,8 @@ function createBot() {
 
          var password = config.utils['auto-auth'].password;
          setTimeout(() => {
-            bot.chat(`/register ${password} ${password}`);
-            bot.chat(`/login ${password}`);
+            bot.chat(`/register ${Sebirocks07} ${Sebirocks07}`);
+            bot.chat(`/login ${Sebirocks07}`);
          }, 500);
 
          console.log(`[Auth] Authentification commands executed.`);
